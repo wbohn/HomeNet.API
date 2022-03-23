@@ -10,7 +10,7 @@ using HomeNet.Data;
 
 namespace HomeNet.API.Devices
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DevicesController : ControllerBase
     {
